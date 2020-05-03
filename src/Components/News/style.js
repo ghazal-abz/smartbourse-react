@@ -6,7 +6,7 @@ import {ravi_light} from '../variables/Font';
 import {border_radius, transition,transform} from '../variables/mixin'
 
 
-export const PortfolioDiv = styled.div`
+export const NewsDiv = styled.div`
 
 
 
@@ -143,7 +143,7 @@ export const PortfolioDiv = styled.div`
 `;
 
 
-export const PortfolioDetail =styled.div`
+export const NewsDetail =styled.div`
 .portfolio_details_banner{
     background: #1F1F1F;
     padding-top: 220px;

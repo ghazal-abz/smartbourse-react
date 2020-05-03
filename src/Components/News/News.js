@@ -1,14 +1,14 @@
 
 import React, { Component } from 'react';
-import {PortfolioDiv} from './style';
-import {PortfolioDetail} from './style';
+import {NewsDiv} from './style';
+import {NewsDetail} from './style';
 
 
- class Portfolio extends Component {
+ class News extends Component {
     render() {
         return (
-            <PortfolioDiv>
-                <PortfolioDetail>
+            <NewsDiv>
+                <NewsDetail>
                
                 <div className="container">
                     <div className="row justify-content-center">
@@ -65,7 +65,7 @@ import {PortfolioDetail} from './style';
                         <div className="col-lg-4 col-md-6 col-lg-4">
                             <div className="single_Portfolio wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
                                 <div className="portfolio_thumb">
-                                    <img src="img/portfolio/4.png" alt="" />
+                                    <img src="img/portfolio/5.jpg" alt="" />
                                 </div>
                                 <div className="portfolio_hover">
                                     <div className="title">                                       
@@ -79,7 +79,7 @@ import {PortfolioDetail} from './style';
                         <div className="col-lg-4 col-md-6 col-lg-4">
                             <div className="single_Portfolio wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">
                                 <div className="portfolio_thumb">
-                                    <img src="img/portfolio/5.png" alt="" />
+                                    <img src="img/portfolio/6.jpg" alt="" />
                                 </div>
                                 <div className="portfolio_hover">
                                     <div className="title">                                       
@@ -93,12 +93,12 @@ import {PortfolioDetail} from './style';
                     </div>
                 </div>
             
-                </PortfolioDetail>
-            </PortfolioDiv>
+                </NewsDetail>
+            </NewsDiv>
             )
     }
 }
 
-export default Portfolio;
+export default News;
 
   
