@@ -5,6 +5,7 @@ import { Route , Switch } from "react-router-dom";
 import Home from "./Pages/Home/Home";
 import Login from "./Pages/Login/Login";
 import './'
+import FirstPB from './Pages/FirstPublishing/FirstPublishing';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
                    <Switch>
                        <Route path="/" exact={true} component={Home}/>
                         <Route path="/login" component={Login}/>
+                        <Route path="/FirstPublishing" component={FirstPB}/>
                        {/* <Route path="/product/:id" component={}/>
                        <Route path="/about" component={}/>
                        <Route path="/news" component={}/>

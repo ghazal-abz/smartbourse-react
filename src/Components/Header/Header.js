@@ -39,6 +39,7 @@ import NavItem from "../../NavItem";
                                                 </ul>
                                             </li>
                                             <li><a href="contact.html">درباره ما</a></li>
+                                            <li><NavItem to="/FirstPublishing">عرضه اولیه</NavItem></li>
                                         </ul>
                                     </nav>
                                 </div>
