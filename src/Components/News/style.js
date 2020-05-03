@@ -45,7 +45,7 @@ export const NewsDiv = styled.div`
             }
             img{
                 width: 100%;
-                height: 100%;
+                height: auto;
                 ${border_radius('5px')}
             }
         }

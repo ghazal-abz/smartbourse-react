@@ -41,7 +41,7 @@ export const HeaderMain = styled.header`
             padding: 0 70px;
         }
         .logo-img{
-            text-align: left;
+            text-align: right;
             @media ${mobile_device} {
                 text-align: left;
             }
@@ -52,6 +52,9 @@ export const HeaderMain = styled.header`
             @media ${mid_device} {
                 // padding-left: 20px;
                 text-align: left;
+            }
+            img{
+                height:70px;
             }
         }
         .main-menu{

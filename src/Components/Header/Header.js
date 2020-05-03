@@ -13,7 +13,7 @@ import NavItem from "../../NavItem";
                             <div className="col-xl-2 col-lg-2">
                                 <div className="logo-img">
                                     <a href="index.html">
-                                        <img src="./logo.svg" alt="" />
+                                        <img src="img/header/LOGO.png" alt="" />
                                     </a>
                                 </div>
                             </div>
