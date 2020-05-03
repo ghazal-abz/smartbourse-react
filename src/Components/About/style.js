@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import {  mid_device, tablet_device, mobile_device,large_device } from '../variables/responsive';
-import img from './about/about.png';
+import img from './about/about.jpg';
 import {border_radius, transition} from '../variables/mixin';
 // import {ravi_light} from '../variables/variable';
 import {ravi_light} from '../variables/Font';
