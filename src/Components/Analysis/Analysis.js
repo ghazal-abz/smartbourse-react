@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import {TeamDiv} from './style';
+import {AnalysisDiv} from './style';
 
-class Team extends Component {
+class Analysis extends Component {
     render() {
         return (
-            <TeamDiv>
+            <AnalysisDiv>
             <div className="team_area ">
                 <div className="container">
                     <div className="row justify-content-center">
@@ -22,11 +22,9 @@ class Team extends Component {
                                     <img src="img/team/2.jpg" alt="" />
                                     <div className="team_hover">
                                         <div className="hover_inner text-center">
-                                            <ul>
-                                                <li><a href="#"> بیشتر بدانید  </a></li>
-                                                {/* <li><a href="#"> <i className="fa fa-twitter"></i> </a></li>
-                                                <li><a href="#"> <i className="fa fa-instagram"></i> </a></li> */}
-                                            </ul>
+                                            {/* <ul>
+                                                <li><a href="#"> <i className="fa fa-twitter"></i> </a></li>
+                                            </ul>                                                                                                                            */}
                                         </div>
                                     </div>
                                 </div>
@@ -42,11 +40,6 @@ class Team extends Component {
                                     <img src="img/team/2.jpg" alt="" /> 
                                     <div className="team_hover">
                                         <div className="hover_inner text-center">
-                                            <ul>
-                                            <li><a href="#"> بیشتر بدانید  </a></li>
-                                                {/* <li><a href="#"> <i className="fa fa-linkedin"></i> </a></li>
-                                                <li><a href="#"> <i className="fa fa-google-plus"></i> </a></li> */}
-                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -62,11 +55,6 @@ class Team extends Component {
                                     <img src="img/team/2.jpg" alt="" />
                                     <div className="team_hover">
                                         <div className="hover_inner text-center">
-                                            <ul>
-                                            <li><a href="#"> بیشتر بدانید  </a></li>
-                                                {/* <li><a href="#"> <i className="fa fa-linkedin"></i> </a></li>
-                                                <li><a href="#"> <i className="fa fa-google-plus"></i> </a></li> */}
-                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -82,11 +70,6 @@ class Team extends Component {
                                     <img src="img/team/2.jpg" alt="" />
                                     <div className="team_hover">
                                         <div className="hover_inner text-center">
-                                            <ul>
-                                                <li><a href="#"> بیشتر بدانید  </a></li>
-                                                <li><a href="#"> <i className="fa fa-linkedin"></i> </a></li>
-                                                <li><a href="#"> <i className="fa fa-google-plus"></i> </a></li>
-                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -99,8 +82,8 @@ class Team extends Component {
                     </div>
                 </div>
             </div>
-            </TeamDiv>
+            </AnalysisDiv>
         )
     }
 }
-export default Team;
+export default Analysis;

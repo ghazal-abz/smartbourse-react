@@ -4,7 +4,7 @@ import { tablet_device, mobile_device } from '../variables/responsive';
 import {ravi_light} from '../variables/Font';
 import {border_radius, transition,transform} from '../variables/mixin'
 
-export const TeamDiv = styled.div`
+export const AnalysisDiv = styled.div`
 
 
 .team_area{
@@ -91,9 +91,19 @@ export const TeamDiv = styled.div`
             }
         }
         &:hover{
+            cursor: pointer;
             .team_hover{
                 ${transform('translateY(0px)')};
                 opacity: 1;
+                ${transition('.3s')};
+                border-radius:3px;
+                border: 2px solid #5969d1;
+
+                
+                
+            }
+            h3 ,p{
+                color:#5969d1;
             }
         }
     }

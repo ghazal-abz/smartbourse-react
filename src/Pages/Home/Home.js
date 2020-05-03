@@ -5,8 +5,7 @@ import Services from '../../Components/Services/Services';
 import About from '../../Components/About/About';
 import News from '../../Components/News/News';
 import WeWork from '../../Components/WeWork/WeWork';
-import Team from '../../Components/Team/Team';
-import Testimonial from '../../Components/Testimonial/Testimonial';
+import Analysis from '../../Components/Analysis/Analysis';
 import Getin from '../../Components/Getin/Getin';
 import Subscribe from '../../Components/Subscribe/Subscribe';
 
@@ -28,8 +27,7 @@ class Home extends Component {
                 <About />
                 <News /> 
                 <WeWork/> 
-                <Team/>
-                <Testimonial />
+                <Analysis />
                 <Getin/>
                 <Subscribe />     
           </React.Fragment>
