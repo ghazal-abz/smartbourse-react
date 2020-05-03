@@ -23,6 +23,7 @@ import NavItem from "../../NavItem";
                                         <ul id="navigation">
                                             <li  className="active" ><NavItem to="/" >خانه</NavItem></li>
                                             <li><NavItem to="/academy">آکادمی</NavItem></li>
+                                            <li><NavItem to="/tutorial">آموزش</NavItem></li>
                                             <li><a href="Portfolio.html">مقالات</a></li>
                                             <li><a href="#">اخبار </a></li>    
                                             <li><a href="#">تماس با ما</a></li>
