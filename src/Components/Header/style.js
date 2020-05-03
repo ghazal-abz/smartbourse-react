@@ -68,7 +68,7 @@ export const HeaderMain = styled.header`
                         
                     }
                     a{
-                        color: #fff;
+                        
                         font-size: 16px;
                         text-transform: capitalize;
                         font-weight: 600;
@@ -101,7 +101,7 @@ export const HeaderMain = styled.header`
                             }
                         }
                         &:hover{
-                            color: #615CFD;
+                            color: #6959d1;
                         }
                     }
                     .submenu {
@@ -130,7 +130,7 @@ export const HeaderMain = styled.header`
                                 }
                             }
                             &:hover a{
-                                color: #615CFD;
+                                color: #6959d1;
                             }
                         }
                     }
@@ -180,7 +180,7 @@ export const HeaderMain = styled.header`
                 ul{
                     li{
                         a{
-                            color: #fff;
+                            /* color: #fff; */
                         }
                     }
                 }

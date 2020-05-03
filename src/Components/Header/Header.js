@@ -24,20 +24,8 @@ import NavItem from "../../NavItem";
                                             <li  className="active" ><NavItem to="/" >خانه</NavItem></li>
                                             <li><NavItem to="/academy">آکادمی</NavItem></li>
                                             <li><a href="Portfolio.html">مقالات</a></li>
-                                            <li><a href="#">اخبار <i className="ti-angle-down"></i></a>
-                                                <ul className="submenu">
-                                                    <li><a href="portfolio_details.html">افتتاح حساب آنلاین</a></li>
-                                                    <li><a href="about.html">about</a></li>
-                                                    <li><a href="elements.html">elements</a></li>
-                                                </ul>
-                                            </li>
-    
-                                            <li><a href="#">تماس با ما <i className="ti-angle-down"></i></a>
-                                                <ul className="submenu">
-                                                    <li><a href="blog.html">blog</a></li>
-                                                    <li><a href="single-blog.html">single-blog</a></li>
-                                                </ul>
-                                            </li>
+                                            <li><a href="#">اخبار </a></li>    
+                                            <li><a href="#">تماس با ما</a></li>
                                             <li><a href="contact.html">درباره ما</a></li>
                                         </ul>
                                     </nav>
