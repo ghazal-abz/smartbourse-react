@@ -3,7 +3,7 @@ import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
 import { Route , Switch } from "react-router-dom";
 import Home from "./Pages/Home/Home";
-import Login from "./Pages/Login/Login";
+
 import Tutorial from "./Pages/Tutorial/Tutorial";
 import './'
 
@@ -15,7 +15,7 @@ function App() {
            
                    <Switch>
                        <Route path="/" exact={true} component={Home}/>
-                        <Route path="/login" component={Login}/>
+                        {/* <Route path="/" component={}/> */}
                        {/* <Route path="/product/:id" component={}/> */}
                        <Route path="/tutorial" component={Tutorial}/>
                        {/* <Route path="/news" component={}/>

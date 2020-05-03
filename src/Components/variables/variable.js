@@ -58,5 +58,25 @@ export const btn_hover= "#f5790b";
 export const section_bg= "#f7f7f7";
 export const section_bg_1= "#454545";
 export const heading_ccolor=" #191d34";
-export const heading_ccolor2= "#ff8b23";
+export const heading_color2= "#ff8b23";
+export const baseColor= "#5969D1";
 
+
+
+// ---------- new
+
+// export const default = "#f9f9ff";
+export const primary = "export const theme_color2";
+export const success = "#4cd3e3";
+export const info = "#38a4ff";
+export const warning = "#f4e700";
+export const danger = "#f44a40";
+export const link = "#f9f9ff";
+export const disable = "(#222222, .3)";
+export const primary_color = "#7c32ff";
+export const primary_color1 = "#c738d8";
+export const title_color = "#415094";
+export const text_color = "#828bb2";
+export const white = "#fff";
+export const offwhite = "#f9f9ff";
+export const black = "#000";
