@@ -5,6 +5,9 @@ import { Route , Switch } from "react-router-dom";
 import Home from "./Pages/Home/Home";
 
 import Tutorial from "./Pages/Tutorial/Tutorial";
+import Contactus from "./Pages/Contactus/Contactus";
+
+
 import './'
 
 
@@ -15,7 +18,7 @@ function App() {
            
                    <Switch>
                        <Route path="/" exact={true} component={Home}/>
-                        {/* <Route path="/" component={}/> */}
+                        <Route path="/contactus" component={Contactus}/>
                        {/* <Route path="/product/:id" component={}/> */}
                        <Route path="/tutorial" component={Tutorial}/>
                        {/* <Route path="/news" component={}/>
