@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import {  transform_time } from '../../Components/variables/mixin';
-import {font_1 ,border_color,baseColor,title_color,white_color,btn_bg,heading_color2, gray1} from '../../Components/variables/variable'
-
+import {font_1 ,border_color,baseColor,title_color,white_color,btn_bg, gray1} from '../../Components/variables/variable'
 import { ravi_light } from '../../Components/variables/Font';
 
 
@@ -537,11 +536,13 @@ export const TutorialDiv = styled.div`
     box-shadow: 0px 10px 20px 0px rgba(221, 221, 221, 0.3);
 
     @media(min-width: 768px) {
-        padding: 60px 30px 35px 35px;
+        padding: 40px 25px 20px 25px;
     }
 
     p {
-        margin-bottom: 30px;
+        margin-bottom: 25px;
+        height: 75px;
+        overflow: hidden;
     }
 
     a {
@@ -707,6 +708,7 @@ export const TutorialDiv = styled.div`
                 background: #615CFD;
                 color: #fff !important;
                 border: 1px solid #615CFD;
+                ${transform_time('.5s')};
             }
             &:focus{
                 outline: none;

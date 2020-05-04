@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import {  mobile_device, tablet_device,mid_device } from '../variables/responsive';
-import {border_radius} from '../variables/mixin'
+import {border_radius,transform_time} from '../variables/mixin';
+
 
 export const FooterDiv = styled.div`
 .footer{
@@ -51,6 +52,9 @@ export const FooterDiv = styled.div`
                     }
                 }
             }
+        }
+        .footer_logo img{
+            height:70px;
         }
     }
     .copy-right_text{
@@ -108,6 +112,7 @@ export const FooterDiv = styled.div`
                      color: #fff !important;
                      background: #615CFD;
                      border: 1px solid #615CFD;
+                     ${transform_time('.5s')};
                  }
                 }
             }

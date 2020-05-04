@@ -202,7 +202,7 @@ class Tutorial extends Component {
                                             <div className="blog_item_img">
                                                 <img className="card-img rounded-0" src="img/gallery/4.png" alt="" />
                                                 <a href="#" className="blog_item_date">
-                                                    <h3>15</h3>
+                                                    <h3>۱۵</h3>
                                                     <p>فروردین</p>
                                                 </a>
                                             </div>
@@ -222,7 +222,7 @@ class Tutorial extends Component {
                                             <div className="blog_item_img">
                                                 <img className="card-img rounded-0" src="img/gallery/5.png" alt="" />
                                                 <a href="#" className="blog_item_date">
-                                                    <h3>15</h3>
+                                                    <h3>۱۵</h3>
                                                     <p>فروردین</p>
                                                 </a>
                                             </div>
@@ -231,7 +231,7 @@ class Tutorial extends Component {
                                                 <a className="d-inline-block" href="single-blog.html">
                                                     <h2>مقاله سهام در بازار جهانی</h2>
                                                 </a>
-                                                <p> تلاش ما رسیدن به راهکارهای هوشمندانه جهت بالا بردن بازدهی معاملات در بازار سهام با بهره گرفتن از دانش روز و ابزار نوین میباشد</p>
+                                                <p> تلاش ما رسیدن به راهکارهای هوشمندانه جهت بالا بردن بازدهی معاملات در بازار سهام با بهره گرفتن از دانش روز و ابزار نوین میباشتلاش ما رسیدن به راهکارهای هوشمندانه جهت بالا بردن بازدهی معاملات در بازار سهام با بهره گرفتن از دانش روز و ابزار نوین میباشتلاش ما رسیدن به راهکارهای هوشمندانه جهت بالا بردن بازدهی معاملات در بازار سهام با بهره گرفتن از دانش روز و ابزار نوین میباشد</p>
                                                 <ul className="blog-info-link">
                                                     <li><a href="#"><i className="fa fa-angle-left"></i> بیشتر بدانید ...</a></li>
                                                 </ul>
@@ -242,7 +242,7 @@ class Tutorial extends Component {
                                             <div className="blog_item_img">
                                                 <img className="card-img rounded-0" src="img/gallery/3.png" alt="" />
                                                 <a href="#" className="blog_item_date">
-                                                    <h3>15</h3>
+                                                    <h3>۱۵</h3>
                                                     <p>فروردین</p>
                                                 </a>
                                             </div>
@@ -262,7 +262,7 @@ class Tutorial extends Component {
                                             <div className="blog_item_img">
                                                 <img className="card-img rounded-0" src="img/gallery/4.png" alt="" />
                                                 <a href="#" className="blog_item_date">
-                                                    <h3>15</h3>
+                                                    <h3>۱۵</h3>
                                                     <p>فروردین</p>
                                                 </a>
                                             </div>
@@ -282,7 +282,7 @@ class Tutorial extends Component {
                                             <div className="blog_item_img">
                                                 <img className="card-img rounded-0" src="img/gallery/5.png" alt="" />
                                                 <a href="#" className="blog_item_date">
-                                                    <h3>15</h3>
+                                                    <h3>۱۵</h3>
                                                     <p>فروردین</p>
                                                 </a>
                                             </div>
@@ -307,7 +307,7 @@ class Tutorial extends Component {
                                             <div className="blog_item_img">
                                                 <img className="card-img rounded-0" src="img/gallery/3.png" alt="" />
                                                 <a href="#" className="blog_item_date">
-                                                    <h3>15</h3>
+                                                    <h3>۱۵</h3>
                                                     <p>فروردین</p>
                                                 </a>
                                             </div>
@@ -327,7 +327,7 @@ class Tutorial extends Component {
                                             <div className="blog_item_img">
                                                 <img className="card-img rounded-0" src="img/gallery/5.png" alt="" />
                                                 <a href="#" className="blog_item_date">
-                                                    <h3>15</h3>
+                                                    <h3>۱۵</h3>
                                                     <p>فروردین</p>
                                                 </a>
                                             </div>
@@ -347,7 +347,7 @@ class Tutorial extends Component {
                                             <div className="blog_item_img">
                                                 <img className="card-img rounded-0" src="img/gallery/4.png" alt="" />
                                                 <a href="#" className="blog_item_date">
-                                                    <h3>15</h3>
+                                                    <h3>۱۵</h3>
                                                     <p>فروردین</p>
                                                 </a>
                                             </div>
@@ -367,7 +367,7 @@ class Tutorial extends Component {
                                             <div className="blog_item_img">
                                                 <img className="card-img rounded-0" src="img/gallery/5.png" alt="" />
                                                 <a href="#" className="blog_item_date">
-                                                    <h3>15</h3>
+                                                    <h3>۱۵</h3>
                                                     <p>فروردین</p>
                                                 </a>
                                             </div>
@@ -388,7 +388,7 @@ class Tutorial extends Component {
                                             <div className="blog_item_img">
                                                 <img className="card-img rounded-0" src="img/gallery/3.png" alt="" />
                                                 <a href="#" className="blog_item_date">
-                                                    <h3>15</h3>
+                                                    <h3>۱۵</h3>
                                                     <p>فروردین</p>
                                                 </a>
                                             </div>

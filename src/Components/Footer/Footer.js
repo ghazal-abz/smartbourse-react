@@ -12,7 +12,7 @@ class Footer extends Component {
                             <div className="col-lg-2 col-md-3">
                                 <div className="footer_logo wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">
                                     <a href="index.html">
-                                        <img src="img/logo.png" alt="" />
+                                        <img src="img/header/LOGO.png" alt=""></img>
                                     </a>
                                 </div>
                             </div>

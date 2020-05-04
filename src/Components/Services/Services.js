@@ -23,7 +23,7 @@ class Services extends Component {
                         <div className="col-xl-3 col-md-3">
                             <div className="single_service text-center wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay=".4s">
                                 <div className="icon">
-                                    <img src="img/svg_icon/1.svg" alt="" />
+                                    <img src="img/svg_icon/tutorial.svg" alt="" />
                                 </div>
                                 <h3>اموزش بورس</h3>
                                 <p>مجموعه اسمارت بورس در زمینه توسعه بازار سهام و معرفی آن به آحاد مردم و ارایه تحلیلهای آموزشی فعال میباشد.</p>
@@ -32,16 +32,16 @@ class Services extends Component {
                         <div className="col-xl-3 col-md-3">
                             <div className="single_service text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
                                 <div className="icon">
-                                    <img src="img/svg_icon/2.svg" alt="" />
+                                    <img src="img/svg_icon/news.svg" alt="" />
                                 </div>
-                                <h3>پشتیبانی</h3>
+                                <h3>اخبار</h3>
                                 <p>مجموعه اسمارت بورس در زمینه توسعه بازار سهام و معرفی آن به آحاد مردم و ارایه تحلیلهای آموزشی فعال میباشد.</p>
                             </div>
                         </div>
                         <div className="col-xl-3 col-md-3">
                             <div className="single_service text-center wow fadeInRight" data-wow-duration="1.2s" data-wow-delay=".4s">
                                 <div className="icon">
-                                    <img src="img/svg_icon/3.svg" alt="" />
+                                    <img src="img/svg_icon/brain.svg" alt="" />
                                 </div>
                                 <h3>هوش ماشین</h3>
                                 <p>مجموعه اسمارت بورس در زمینه توسعه بازار سهام و معرفی آن به آحاد مردم و ارایه تحلیلهای آموزشی فعال میباشد.</p>
@@ -50,7 +50,7 @@ class Services extends Component {
                         <div className="col-xl-3 col-md-3">
                             <div className="single_service text-center wow fadeInRight" data-wow-duration="1.2s" data-wow-delay=".4s">
                                 <div className="icon">
-                                    <img src="img/svg_icon/3.svg" alt="" />
+                                    <img src="img/svg_icon/algoritm.svg" alt="" />
                                 </div>
                                 <h3>هوش ماشین</h3>
                                 <p>مجموعه اسمارت بورس در زمینه توسعه بازار سهام و معرفی آن به آحاد مردم و ارایه تحلیلهای آموزشی فعال میباشد.</p>

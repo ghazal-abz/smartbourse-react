@@ -14,7 +14,7 @@ export const ServiceArea = styled.div`
         padding-bottom: 50px;
     }
     .single_service{
-        padding: 48px 35px 45px 35px;
+        padding: 15px 25px 25px 25px;
         border: 2px solid #E8E8E8;
         ${transition('.3s')}
         margin-bottom: 30px;
@@ -23,13 +23,15 @@ export const ServiceArea = styled.div`
             padding: 30px 20px;
         }
         .icon{
-
+            img{
+                height:110px;
+            }
         }
         h3{
             font-size: 24px;
             font-weight: 400;
             color: #1F1F1F;
-            margin-top: 29px;
+            margin-top:22px;
             margin-bottom: 13px;
             @media ${tablet_device} {
                 font-size: 22px;
@@ -39,7 +41,7 @@ export const ServiceArea = styled.div`
             color: #727272;
             font-size: 16px;
             font-weight: 400;
-            line-height: 30px;
+            line-height: 22px;
             margin-bottom: 0;
         }
         &:hover{
