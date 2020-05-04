@@ -41,7 +41,7 @@ export const AboutDiv = styled.div`
         }
     }
     .about_info{
-        padding: 160px 0;
+        padding: 120px 0;
         @media ${mobile_device}{
             padding: 80px 0;
         }
@@ -59,7 +59,7 @@ export const AboutDiv = styled.div`
         }
         h3{
             color:#fff;
-            margin-top: 25px;
+            margin-top: 1px;
             margin-bottom: 54px;
             @media ${mid_device} {
                 font-size: 35px;

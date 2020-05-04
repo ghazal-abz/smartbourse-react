@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import {  transform_time } from '../../Components/variables/mixin';
+import {  transform_time ,transition} from '../../Components/variables/mixin';
 import {font_1 ,border_color,baseColor,title_color,white_color,btn_bg, gray1} from '../../Components/variables/variable'
 import { ravi_light } from '../../Components/variables/Font';
 
@@ -626,11 +626,7 @@ export const TutorialDiv = styled.div`
         padding: 8px 15px;
         border-radius: 5px;
         &:hover, :hover{
-                    background: -webkit-linear-gradient( 131deg, #615CFD 0%, #615CFD 99%);
-                    -webkit-background-clip: text;
-                    -webkit-text-fill-color: transparent;
-                    text-decoration: none;
-                    ${transform_time('.5s')};
+            cursor: pointer;            
 
                 }
         @media(min-width: 768px) {
@@ -856,12 +852,13 @@ export const TutorialDiv = styled.div`
                     color: ${font_1};
 
                 }
-                &:hover, :hover{
+                &:hover{
                     background: -webkit-linear-gradient( 131deg, #615CFD 0%, #615CFD 99%);
                     -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent;
                     text-decoration: none;
                     ${transform_time('.5s')};
+                    ${transition(.6)};
 
                 }
 
@@ -870,6 +867,7 @@ export const TutorialDiv = styled.div`
                     // color: ${baseColor};
                     &:hover {
                         color: ${baseColor};
+                        ${transform_time('.5s')};
                     }
 
                 }

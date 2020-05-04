@@ -4,7 +4,7 @@ import {  tablet_device, mobile_device } from '../variables/responsive';
 // import {ravi_light,ravi_light} from '../variables/variable';
 import {ravi_light} from '../variables/Font';
 import img from './work/work.jpg';
-import {border_radius, transition} from '../variables/mixin'
+import {border_radius, transition,transform_time} from '../variables/mixin'
 
 
 export const WeWorkDiv = styled.div`
@@ -69,20 +69,24 @@ export const WeWorkDiv = styled.div`
                 color: #707070;
                 font-weight: 400;
             }
+
         }
         .video_watch{
             margin-top: 37px;
             .play_btn{
                 a{
-                    width: 60px;
-                    height: 60px;                
-                    ${border_radius('50%')}
-                    background: #615CFD;
-                    font-size: 14px;
+                                 
+                    position: absolute;               
                     text-align: center;
                     line-height: 60px;
                     color: #fff;
                     display: inline-block;
+                    i{
+                        font-size: 18px;
+                        color:#615CFD;
+                        top: -4px;
+                        position: absolute;
+                    }
                 }
             }
             span{
@@ -92,6 +96,18 @@ export const WeWorkDiv = styled.div`
                 font-family: ${ravi_light};
                 margin-left: 20px;
             }
+          
+                cursor: pointer;
+                &:hover{
+                    span{
+                        color: #615CFD !important;
+                        background: transparent ;
+                        ${transition(.6)};
+                            ${transform_time('.5s')};
+                    }
+
+                }
+            
         }
     }
 }

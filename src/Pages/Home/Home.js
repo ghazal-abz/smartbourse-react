@@ -7,7 +7,7 @@ import News from '../../Components/News/News';
 import WeWork from '../../Components/WeWork/WeWork';
 import Analysis from '../../Components/Analysis/Analysis';
 import Getin from '../../Components/Getin/Getin';
-import Subscribe from '../../Components/Subscribe/Subscribe';
+// import Subscribe from '../../Components/Subscribe/Subscribe';
 
 
 
@@ -23,13 +23,13 @@ class Home extends Component {
         return (
             <React.Fragment>              
                 <Slider />
+                <WeWork/> 
                 <Services />
                 <About />
-                <News /> 
-                <WeWork/> 
+                <News />                           
                 <Analysis />
                 <Getin/>
-                <Subscribe />     
+                {/* <Subscribe />      */}
           </React.Fragment>
         );
     }

@@ -52,7 +52,7 @@ class Services extends Component {
                                 <div className="icon">
                                     <img src="img/svg_icon/algoritm.svg" alt="" />
                                 </div>
-                                <h3>هوش ماشین</h3>
+                                <h3>الگوریتم تریدینگ </h3>
                                 <p>مجموعه اسمارت بورس در زمینه توسعه بازار سهام و معرفی آن به آحاد مردم و ارایه تحلیلهای آموزشی فعال میباشد.</p>
                             </div>
                         </div>

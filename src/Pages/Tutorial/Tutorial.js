@@ -18,7 +18,7 @@ class Tutorial extends Component {
                                         <form action="#">
                                             <div className="form-group">
                                                 <div className="input-group mb-3">
-                                                    <input type="text" className="form-control" placeholder='دنبال چه چیزی هستید ...'
+                                                    <input type="text" className="form-control" placeholder='بنویس، تا کمکت کنم...'
                                                         
                                                        />
                                                     <div className="input-group-append">
@@ -27,7 +27,7 @@ class Tutorial extends Component {
                                                 </div>
                                             </div>
                                             <button className="button rounded-0 primary-bg text-white w-100 btn_1 boxed-btn"
-                                                type="submit">جست وجو</button>
+                                                type="submit">جستوجو</button>
                                         </form>
                                     </aside>
 
@@ -37,44 +37,44 @@ class Tutorial extends Component {
                                             <li>
                                                 <a href="#" className="d-flex">
                                                     <p>بورس جهانی</p>
-                                                    <p>(۱۲)</p>
+                                                    <p>&nbsp;(۱۲)</p>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="#" className="d-flex">
                                                     <p>خبر سهام</p>
-                                                    <p>(۱۶)</p>
+                                                    <p>&nbsp;(۱۶)</p>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="#" className="d-flex">
                                                     <p>الگوریتم برتر</p>
-                                                    <p>(۱۰)</p>
+                                                    <p>&nbsp;(۱۰)</p>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="#" className="d-flex">
                                                     <p>محصولات</p>
-                                                    <p>(۲)</p>
+                                                    <p>&nbsp;(۲)</p>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="#" className="d-flex">
-                                                    <p>خرید و فروش</p>
-                                                    <p>(۱۰)</p>
+                                                    <p> خرید و فروش</p>
+                                                    <p>&nbsp;(۱۰)</p>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="#" className="d-flex">
                                                     <p>بورس ایران</p>
-                                                    <p>(۱۰)</p>
+                                                    <p>&nbsp;(۱۰)</p>
                                                 </a>
                                             </li>
                                         </ul>
                                     </aside>
 
                                     <aside className="single_sidebar_widget popular_post_widget">
-                                        <h3 className="widget_title">محصولات اخیر</h3>
+                                        <h3 className="widget_title">تحلیل های اخیر</h3>
                                         <div className="media post_item">
                                             <img src="img/post/post_1.png" alt="post" />
                                             <div className="media-body">

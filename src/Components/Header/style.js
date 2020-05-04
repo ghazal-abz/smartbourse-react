@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { large_device, mid_device, tablet_device, mobile_device } from '../variables/responsive';
 // import {ravi_light} from '../variables/variable';
 import {ravi_light} from '../variables/Font';
-import {justify_content, transition} from '../variables/mixin'
+import {justify_content, transition ,transform_time} from '../variables/mixin'
 
 export const HeaderMain = styled.header`
     position: absolute;
@@ -105,6 +105,8 @@ export const HeaderMain = styled.header`
                         }
                         &:hover{
                             color: #6959d1;
+                            ${transition(.6)};
+                            ${transform_time('.5s')};
                         }
                     }
                     .submenu {

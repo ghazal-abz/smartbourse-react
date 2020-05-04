@@ -17,7 +17,9 @@ export const GetinDiv = styled.div`
 .widget {
     margin-bottom: 30px;
     position: relative;
-
+    .text-light{
+            margin-bottom:30px;
+        }
     .widget-title,
     >h4 {
         font-size: 14px;
@@ -165,6 +167,12 @@ body.breakpoint-sm .col-3 {
 
 // Newsletter widgets 
 .widget.widget-newsletter {
+    .input-group-text{
+        border-top-right-radius:30px;
+        border-bottom-right-radius:30px;
+        background: #615CFD;
+        color:#fff;
+    }
     button {
         margin-left: -1px;
     }
@@ -175,18 +183,29 @@ body.breakpoint-sm .col-3 {
     }
 
     .btn {
+        background: #615CFD;
         text-transform: none;
+        border-top-left-radius:30px;
+        border-bottom-left-radius:30px;
+        height: 50px;
+        color:#fff;
     }
 
     .form-control {
-        height: 40px;
-        text-align:right;
+        width: 100%;
+        border: 1px solid #C9C9C9;
+        height: 50px;
+        padding: 20px 16px;
+        font-size: 14px;
+        color: #000;
+        font-weight: 400;
+        direction: rtl !important;
+        text-align: right !important;
     }
 
     .btn {
         font-size: 12px;
         font-weight: 600;
-        height: 40px;
         padding: 8px 16px;
     }
 
@@ -315,7 +334,7 @@ body.breakpoint-sm .col-3 {
 }
 
 .widget-newsletter .input-group-prepend i {
-    color: #555 !important;
+    color: #fff !important;
 }
 
 /*Widget: Contact us*/
@@ -572,7 +591,6 @@ body.breakpoint-sm .col-3 {
 /*Dark*/
 .dark {
     .widget {
-
         .widget-title,
         >h4 {
             color: $color-white;

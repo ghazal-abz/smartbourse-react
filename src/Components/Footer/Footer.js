@@ -16,25 +16,28 @@ class Footer extends Component {
                                     </a>
                                 </div>
                             </div>
-                            <div className="col-xl-7 col-lg-7 col-md-9">
+                            <div className="col-xl-8 col-lg-7 col-md-9">
                                 <div className="menu_links">
                                     <ul>
                                         <li><a className="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".2s" href="#">خانه</a ></li>
                                         <li><a className="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".4s" href="#">آکادمی</a></li>
                                         <li><a className="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".6s" href="#">آموزش</a></li>
+                                        <li><a className="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".6s" href="#">مقالات</a></li>
+                                        <li><a className="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".6s" href="#">اخبار</a></li>
+                                        <li><a className="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".8s" href="#">درباره ما</a></li>
                                         <li><a className="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".8s" href="#">تماس با ما</a></li>
                                         {/* <li><a className="wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s" href="#">Blog</a></li>
                                         <li><a className="wow fadeInDown" data-wow-duration="1s" data-wow-delay="1.1s" href="#">Contact</a></li> */}
                                     </ul>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-12">
+                            <div className="col-lg-2 col-md-12">
                                 <div className="socail_links">
                                     <ul>
                                         <li><a className="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s" href="#"> <i className="fa fa-facebook"></i> </a></li>
-                                        <li><a className="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s" href="#"> <i className="fa fa-twitter"></i> </a></li>
+                                        {/* <li><a className="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s" href="#"> <i className="fa fa-twitter"></i> </a></li> */}
                                         <li><a className="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s" href="#"> <i className="fa fa-instagram"></i> </a></li>
-                                        <li><a className="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s" href="#"> <i className="fa fa-google-plus"></i> </a></li>
+                                        {/* <li><a className="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s" href="#"> <i className="fa fa-google-plus"></i> </a></li> */}
                                     </ul>
                                 </div>
                             </div>

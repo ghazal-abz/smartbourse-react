@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { tablet_device, mobile_device } from '../variables/responsive';
 // import {ravi_light,ravi_light} from '../variables/variable';
 import {ravi_light} from '../variables/Font';
-import {border_radius, transition,transform} from '../variables/mixin'
+import {border_radius, transition,transform,transform_time} from '../variables/mixin'
 
 export const AnalysisDiv = styled.div`
 
@@ -41,6 +41,7 @@ export const AnalysisDiv = styled.div`
                 background: transparent ;
                 ${transform("translateY(10%)")};
                 ${transition('.3s')};
+                
                 opacity: 0;
                 .hover_inner{
                     position: absolute;
@@ -99,6 +100,7 @@ export const AnalysisDiv = styled.div`
                 ${transition('.3s')};
                 border-radius:3px;
                 border: 2px solid #5969d1;
+                ${transform_time('.5s')};
 
                 
                 
