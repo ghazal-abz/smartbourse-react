@@ -19,7 +19,7 @@ class Analysis extends Component {
                         <div className="col-lg-3 col-md-6">
                             <div className="single_team wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
                                 <div className="team_thumb">
-                                    <img src="img/team/2.jpg" alt="" />
+                                    <img src="img/analysis/stop_loss.jpg" alt="" />
                                     <div className="team_hover">
                                         <div className="hover_inner text-center">
                                             {/* <ul>
@@ -37,7 +37,7 @@ class Analysis extends Component {
                         <div className="col-lg-3 col-md-6">
                             <div className="single_team wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
                                 <div className="team_thumb">
-                                    <img src="img/team/2.jpg" alt="" /> 
+                                    <img src="img/analysis/stop_loss.jpg" alt="" /> 
                                     <div className="team_hover">
                                         <div className="hover_inner text-center">
                                         </div>
@@ -52,7 +52,7 @@ class Analysis extends Component {
                         <div className="col-lg-3 col-md-6">
                             <div className="single_team wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
                                 <div className="team_thumb">
-                                    <img src="img/team/2.jpg" alt="" />
+                                    <img src="img/analysis/stop_loss.jpg" alt="" />
                                     <div className="team_hover">
                                         <div className="hover_inner text-center">
                                         </div>
@@ -67,7 +67,7 @@ class Analysis extends Component {
                         <div className="col-lg-3 col-md-6">
                             <div className="single_team wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
                                 <div className="team_thumb">
-                                    <img src="img/team/2.jpg" alt="" />
+                                    <img src="img/analysis/stop_loss.jpg" alt="" />
                                     <div className="team_hover">
                                         <div className="hover_inner text-center">
                                         </div>

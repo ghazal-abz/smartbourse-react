@@ -2,11 +2,11 @@ import styled from 'styled-components';
 import {  mobile_device } from '../variables/responsive';
 import {ravi_light} from '../variables/Font';
 import img1 from './banner/banner.png';
-import img2 from './banner/banner2.png';
+import img2 from './banner/bradcm.jpg';
 
 export const BannerDiv = styled.div`
 .bradcam_bg_1{
-    background-image: url(${img1});
+    background-image: url(${img2});
 }
 .breadcam_bg_2{
     background-image: url(${img2});

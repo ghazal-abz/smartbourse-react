@@ -29,6 +29,7 @@ export const AnalysisDiv = styled.div`
             position: relative;
             img{
                 width: 100%;
+                height:auto;
                 ${border_radius('0px')};
             }
             .team_hover{

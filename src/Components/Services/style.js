@@ -31,8 +31,8 @@ export const ServiceArea = styled.div`
             font-size: 24px;
             font-weight: 400;
             color: #1F1F1F;
-            margin-top:22px;
-            margin-bottom: 13px;
+            margin-top:15px;
+            margin-bottom: 15px;
             @media ${tablet_device} {
                 font-size: 22px;
             }
