@@ -6,6 +6,7 @@ import Home from "./Pages/Home/Home";
 
 import './'
 import FirstPB from './Pages/FirstPublishing/FirstPublishing';
+import SignUp from './Pages/SignUp/SignUp';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
                        <Route path="/" exact={true} component={Home}/>
                       
                         <Route path="/FirstPublishing" component={FirstPB}/>
+                        <Route path="/SignUp" component={SignUp}/>
                        {/* <Route path="/product/:id" component={}/>
                        <Route path="/about" component={}/>
                        <Route path="/news" component={}/>
