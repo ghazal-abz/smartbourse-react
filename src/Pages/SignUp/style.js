@@ -12,12 +12,14 @@ export const SignUpDiv  = styled.div`
 
 #form-submit{
     color: white;
-    background-color: #6658d1;
+    background-color: #6658d1;git
     cursor: pointer;
 }
 #form-submit:hover{
     background-color: #4535c1;
 }
+
+
 
 
 `;
