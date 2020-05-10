@@ -5,6 +5,9 @@ import { Route , Switch } from "react-router-dom";
 import Home from "./Pages/Home/Home";
 
 import Tutorial from "./Pages/Tutorial/Tutorial";
+import Shop from "./Pages/shop/shop";
+import Product from "./Pages/product/product";
+import Shopingcart from "./Pages/shopingcart/shopingcart";
 import './'
 
 
@@ -18,6 +21,9 @@ function App() {
                         {/* <Route path="/" component={}/> */}
                        {/* <Route path="/product/:id" component={}/> */}
                        <Route path="/tutorial" component={Tutorial}/>
+                       <Route path="/Shop" component={Shop}/>
+                       <Route path="/product" component={Product}/>
+                       <Route path="/shopingcart" component={Shopingcart}/>
                        {/* <Route path="/news" component={}/>
                        <Route path="/contact" component={}/>
                        <PrivateRoute path="/user-panel" component={} auth={this.state.isAuthenticated}/>
